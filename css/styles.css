@@ -10895,24 +10895,26 @@ p {
   background-color: darkred;
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-#mainNav .navbar-brand {
+#mainNav1 .navbar-brand {
   color: #e6a756;
 }
-#mainNav .navbar-nav .nav-item .nav-link {
+#mainNav1 .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
 }
-#mainNav .navbar-nav .nav-item.active .nav-link {
+#mainNav1 .navbar-nav .nav-item.active .nav-link {
   color: #e6a756;
 }
 @media (min-width: 992px) {
-  #mainNav .navbar-nav .nav-item .nav-link {
+  #mainNav1 .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
+    transition: .2s;
   }
-  #mainNav .navbar-nav .nav-item .nav-link:hover {
+  #mainNav1 .navbar-nav .nav-item .nav-link:hover {
     color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
   }
-  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+  #mainNav1 .navbar-nav .nav-item.active .nav-link:hover {
     color: #e6a756;
   }
 }
@@ -10920,24 +10922,25 @@ p {
 #mainNav2 {
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-#mainNav .navbar-brand {
+#mainNav2 .navbar-brand {
   color: #e6a756;
 }
-#mainNav .navbar-nav .nav-item .nav-link {
+#mainNav2 .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 1200;
 }
-#mainNav .navbar-nav .nav-item.active .nav-link {
+#mainNav2 .navbar-nav .nav-item.active .nav-link {
   color: #e6a756;
 }
 @media (min-width: 992px) {
-  #mainNav .navbar-nav .nav-item .nav-link {
+  #mainNav2 .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
   }
-  #mainNav .navbar-nav .nav-item .nav-link:hover {
+  #mainNav2 .navbar-nav .nav-item .nav-link:hover {
     color: rgba(255, 255, 255, 0.4);
+    text-decoration: underline;
   }
-  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+  #mainNav2 .navbar-nav .nav-item.active .nav-link:hover {
     color: #e6a756;
   }
 }
